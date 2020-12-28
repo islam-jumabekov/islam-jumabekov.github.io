@@ -165,9 +165,4 @@ section {
     transform: translate(-50%, -50%);
 }
 footer{
-display: block;
-box-sizing: border-box;
-font-size: 14px;
-line-height: 20px;
-color: #333
-}
+
