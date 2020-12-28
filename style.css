@@ -164,10 +164,3 @@ section {
     top: 60%; left: 45%;
     transform: translate(-50%, -50%);
 }
-footer{
-    display: flex;
-    box-sizing: border-box;
-    font-size: 14px;
-    line-height: 20px;
-    color: #333
-    }
