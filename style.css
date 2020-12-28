@@ -164,21 +164,4 @@ section {
     top: 60%; left: 45%;
     transform: translate(-50%, -50%);
 }
-footer{
-    display: flex;
-}
-.vrap{
-    font-size: 30px;
-    display: flex;
-    margin: 5px;
-    padding: 5px;
-}
-.vrep{
-    display: flex;
-    margin: 5px;
-    padding: 5px;
-}
-.vrup{
-    margin: 5px;
-    padding: 5px;
-}
+
