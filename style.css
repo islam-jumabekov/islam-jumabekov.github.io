@@ -164,6 +164,8 @@ section {
     top: 60%; left: 45%;
     transform: translate(-50%, -50%);
 }
-html{
-
+.tr{ 
+max-width: 12px;
+margin: auto;
+list-style: armenian;
 }
