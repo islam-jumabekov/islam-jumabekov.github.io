@@ -164,9 +164,3 @@ section {
     top: 60%; left: 45%;
     transform: translate(-50%, -50%);
 }
-.tor{
-margin: auto;
-max-width: 10px;
-margin-left: 15px;
-position: absolute;
-}
