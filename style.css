@@ -184,10 +184,7 @@ section {
     width: 100%;
     line-height: normal;
 }
-span{
-    color: black;
-    font-weight: bold;
-}
+
 @media screen and (max-width:
 600px) and (min-width:200px){
 .wrapper_body{
