@@ -170,18 +170,23 @@ section {
     display: flex;
     flex-wrap:wrap;
 }
+
 .the{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 150px;
     font-size: 20px;
-     width: 100%;
+    width: 100%;
 }
 .col-4{
     margin: 15px;
     width: 100%;
     line-height: normal;
+}
+span{
+    color: black;
+    font-weight: bold;
 }
 @media screen and (max-width:
 600px) and (min-width:200px){
