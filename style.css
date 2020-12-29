@@ -100,7 +100,8 @@ section {
 }
 
 .boxes {
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
     grid-template-columns: 285.97px 72px 285.97px 72px 285.97px;
 }
 
@@ -129,7 +130,7 @@ section {
 }
 
 .boxes .box div:first-child{
-    margin: 50px 0
+    margin: 50px 
 }
 
 .boxes .box div p:first-child{
@@ -165,6 +166,10 @@ section {
     top: 60%; left: 45%;
     transform: translate(-50%, -50%);
 }
+.wrapper_body {
+    display: flex;
+    flex-wrap:wrap;
+}
 .the{
     display: flex;
     justify-content: center;
@@ -176,4 +181,18 @@ section {
 .col-4{
     margin: 15px;
     width: 100%;
+    line-height: normal;
 }
+@media screen and (max-width:
+600px) and (min-width:200px){
+.wrapper_body{
+display: grid;
+grid-template-columns:450px ;
+  }
+  nav > ul {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+  }
+ }
