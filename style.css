@@ -170,31 +170,35 @@ section {
     display: flex;
     flex-wrap:wrap;
 }
-
-.the{
+footer{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 150px;
-    font-size: 20px;
-    width: 100%;
+    justify-content: space-evenly;
+   
+  
 }
-.col-4{
-    margin: 15px;
-    width: 100%;
-    line-height: normal;
+.photo{
+    width: 120px;
+    height: 40px;
+}
+.footer__section {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: -5%;
+ }
+h6{
+    font-size: 1.4em;
+}
+.footer__direction{
+    width: 200px;
+    font-size: 1.2em;
 }
 
 @media screen and (max-width:
-600px) and (min-width:200px){
-.wrapper_body{
+800px) and (min-width:200px){
+.wrapper_body {
 display: grid;
 grid-template-columns:450px ;
-  }
-  nav > ul {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-  }
- }
+
+}
+
+}
