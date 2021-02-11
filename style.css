@@ -157,7 +157,7 @@ section {
 }
 
 .box_wrapper {
-  max-width: 100%;
+  max-width: 98%;
 }
 
 .boxes {
@@ -262,7 +262,7 @@ footer {
   height: 40px;
 }
 .footer__section {
-  width: 100%;
+  width: 65%;
   display: flex;
   justify-content: space-between;
 }
@@ -270,7 +270,7 @@ h6 {
   font-size: 1.4em;
 }
 .footer__direction {
-  font-size: 1.2em;
+  font-size: 1.2;
 }
 .last-direct {
   max-width: 240px;
